@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sidebar Responsiva</title>
+        <link rel="shortcut icon" href="./assets/logo.svg" type="image/x-icon">
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="sidebar">
+            <div class="logo-content">
+                <img class="logo" src="./assets/logo.svg" />
+                <img class="menu" src="./assets/menu.svg" />
+            </div>
+            <ul class="nav-list">
+                <li class="list" id="search">
+                    <span class="tooltip">Buscar</span>
+                    <a class="link-list" href="#">
+                        <img class="link-img" src="./assets/search.svg" />
+                        <span class="link-name">Buscar</span>
+                    </a>
+                </li>
+                <li class="list" id="dashboard">
+                    <span class="tooltip">Dashboard</span>
+                    <a class="link-list" href="#">
+                        <img class="link-img" src="./assets/grid.svg" />
+                        <span class="link-name">Dashboard</span>
+                    </a>
+                </li>
+                <li class="list" id="pets">
+                    <span class="tooltip">Pets</span>
+                    <a class="link-list" href="#">
+                        <img class="link-img" src="./assets/pet.svg" />
+                        <span class="link-name">Pets</span>
+                    </a>
+                </li>
+                <li class="list" id="customers">
+                    <span class="tooltip">Clientes</span>
+                    <a class="link-list" href="#">
+                        <img class="link-img" src="./assets/user.svg" />
+                        <span class="link-name">Clientes</span>
+                    </a>
+                </li>
+                <li class="list" id="vets">
+                    <span class="tooltip">Vets</span>
+                    <a class="link-list" href="#">
+                        <img class="link-img" src="./assets/user-md.svg" />
+                        <span class="link-name">Vets</span>
+                    </a>
+                </li>
+                <li class="list" id="settings">
+                    <span class="tooltip">Ajustes</span>
+                    <a class="link-list" href="#">
+                        <img class="link-img" src="./assets/settings.svg" />
+                        <span class="link-name">Ajustes</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="profile-content">
+                <div class="profile">
+                    <div class="profile-details">
+                        <img class="avatar" src="./assets/avatar.png" />
+                        <div class="name-job">
+                            <div class="name">Eleanor Pena</div>
+                            <div class="job">Veterinária</div>
+                        </div>
+                    </div>
+                    <img class="log-out" src="./assets//log-out.svg" />
+                </div>
+            </div>
+        </div>
+        <div class="home-content">
+            <div class="text">Dashboard</div>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
