@@ -3,12 +3,12 @@
 <p align="center">
   Preview:
     &nbsp;&nbsp;&nbsp;
-  <a href="./preview/Sidebar-Responsiva-Aberto.png">Sidebar Aberto</a>
+  <a href="./preview/Aberto">Aberto</a>
     &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="./preview/Sidebar-Responsiva-Fechado.png">Sidebar Fechado</a>
+  <a href="./preview/Fechado">Fechado</a>
 </p>
 
-![preview](./preview/Sidebar-Responsiva-Fechado.png)
+![preview](./preview/Fechado/Sidebar-Responsiva-Fechado.png)
 
 ## Projeto 💻
 Projeto de um desafio da Rocketseat de criar uma sidebar responsiva. <br>
