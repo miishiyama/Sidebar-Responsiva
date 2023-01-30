@@ -31,6 +31,7 @@ As tecnologias utilizadas neste projeto são:
 - CSS
 - JavaScript
 - DOM
+- Google Fonts
 
 ## Créditos ❤️
 Feito por [Millene Eduarda Ishiyama](https://github.com/miishiyama/).
