@@ -23,37 +23,37 @@ button.onclick = function Button() {
     content.classList.toggle("active")
 }
 
-search.onclick = function() {
+search.onclick = function () {
     sidebar.classList.remove("active")
     content.classList.remove("active")
 }
 
-dashboard.onclick = function() {
+dashboard.onclick = function () {
     sidebar.classList.remove("active")
     content.classList.remove("active")
 }
 
-pets.onclick = function() {
+pets.onclick = function () {
     sidebar.classList.remove("active")
     content.classList.remove("active")
 }
 
-customers.onclick = function() {
+customers.onclick = function () {
     sidebar.classList.remove("active")
     content.classList.remove("active")
 }
 
-vets.onclick = function() {
+vets.onclick = function () {
     sidebar.classList.remove("active")
     content.classList.remove("active")
 }
 
-settings.onclick = function() {
+settings.onclick = function () {
     sidebar.classList.remove("active")
     content.classList.remove("active")
 }
 
-logOut.onclick = function() {
+logOut.onclick = function () {
     sidebar.classList.remove("active")
     content.classList.remove("active")
 }
